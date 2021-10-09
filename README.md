@@ -1,2 +1,2 @@
 # jubilant-guide
-## This is scam repo to acquire hacktoberfest SWAAAAGGGSSS
+This repository contains CPP code for various coding questions.
