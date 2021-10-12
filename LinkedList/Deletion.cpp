@@ -62,19 +62,18 @@ void Delete(int pos){
 	}
 	cout<<x<<" was successfully deleted\n";
 }
-
-
-int main(){
+int main()
+{
 	vector<int> A = {3,6,3,1,7,8,13,1,4,9};
-	for(int i = 0; i < A.size(); i++){
-		create(A[i]);
-	}
-	Display();
-	cout<<endl<<endl;
-	Delete(3);
-	Delete(7);
-	Delete(20);
-	cout<<"\n\nList After Deletion :: ";
-	Display();
-	return 0;
+	for(int i=0;i<A.size();i++)
+	create A[i];
+}
+Display();
+cout<<endl<<endl;
+Delete(3);
+Delete(7);
+Delete(20);
+cout<<"\n\nList After Deletion : ";
+Display();
+return (0);
 }
